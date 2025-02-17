@@ -1,10 +1,13 @@
-# Random Image API
+# Random Image and Jokes API
 
-A simple Express-based API that returns random image data in the form of an array of objects containing image names and their corresponding URLs.
+A simple Express-based API that returns random image data or jokes whenever the API is called .
+
 
 ## Features
 
-- **GET `/`** - Returns an array of random image data with `img_name` and `img_url`.
+- **GET `/`** - Returns a random image data with `img_name` and `img_url` every time the API is called.
+- **GET `/jokes`** - Returns a random joke data with `setup` and `punch` every time the API is called.
+
 - Simple Express.js API.
 
 ## Prerequisites
@@ -20,5 +23,4 @@ Before running this project, ensure that you have the following installed:
 
 Clone this project to your local machine using the following command:
 
-```bash
 git clone https://github.com/shinigl/Image-API-Express
